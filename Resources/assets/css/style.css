@@ -1,4 +1,53 @@
-#nav{
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 25.00%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.latitude {
+  font-size: 3rem;
+  color: gray;
+}
+
+.end {
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #nav{
     color: aqua;
     background-color: gray;
     font-size: 2.5rem;
@@ -22,4 +71,34 @@ h2 {
     font-weight: bold;
 }
 
+* {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    width: 25.00%;
+    padding: 5px;
+  }
+/*   
+  /* Clearfix (clear floats) */
+  /* .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  } */
 
+  /* .navbar {
+    background-color: gray;
+    padding: 10px;
+    margin-right: 10px;
+} */ 
+
+/* .navbar li {
+    background-color: white;
+    border-radius: 4px;
+    display: inline-block;
+    padding: 20px;
+    margin-right: 10px;
+    font-size: 1.5rem;
+} */
