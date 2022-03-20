@@ -1,104 +1,69 @@
 
-
-
-* {
-  box-sizing: border-box;
+body {
+  width: 100%;
+  min-height:100%;
+  background-color: lightgray;
 }
 
 .column {
-  float: left;
-  width: 25.00%;
-  padding: 5px;
-}
+  width: 100%;
+} 
 
-/* Clearfix (clear floats) */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-.latitude {
-  font-size: 3rem;
-  color: gray;
-}
-
-.end {
-  display: flex;
-  justify-content: flex-end;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* #nav{
-    color: aqua;
-    background-color: gray;
-    font-size: 2.5rem;
-    font-weight: bold;
-    font-style: normal;
+h1, h2 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: lightseagreen;
 }
 
 h1 {
-    color: gray;
-    font-size: 2.0rem;
-    font-weight: bold;
-}
-
-p {color: gray;
-    font-size: 1.2rem;
+  font-size: 26px;
+  font-weight: bold;
+  text-align:left;
 }
 
 h2 {
-    color: gray;
-    font-size: 1.8rem;
-    font-weight: bold;
+  font-size: 24px;
+  font-weight: bold;
+  text-align:left;
 }
 
-* {
-    box-sizing: border-box;
-  }
-  
-  .column {
-    float: left;
-    width: 25.00%;
-    padding: 5px;
-  }
-/*   
-  /* Clearfix (clear floats) */
-  /* .row::after {
-    content: "";
-    clear: both;
-    display: table;
-  } */
+p {
+  color: gray;
+  text-align:left;
+}
 
-  /* .navbar {
-    background-color: gray;
-    padding: 10px;
-    margin-right: 10px;
-} */ 
+img {
+  max-width: 100%;
+}
 
-/* .navbar li {
-    background-color: white;
-    border-radius: 4px;
-    display: inline-block;
-    padding: 20px;
-    margin-right: 10px;
-    font-size: 1.5rem;
-} */
+.navbar {
+    position: absolute;
+    right: 30px;
+}
+
+.btn {
+  background-color: white;
+  z-index:2;
+}
+
+.btn a {
+  width: 110px;
+  background: lightseagreen;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: white !important;
+  text-align: center;
+  display: block;
+  padding: 14px;
+  margin: 0px 0px 0px 40px;
+}
+
+.top {
+  background-color: white;
+  z-index:2;
+}
+
+.divbody {
+  background-color: white;
+  z-index:1;
+}
